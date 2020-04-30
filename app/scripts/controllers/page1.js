@@ -8,6 +8,7 @@ angular
             return window.accountSettingsBaseDir + 'views/page1.html'
         },
         controller: ['$scope', function ($scope) {
-            $scope.title = "Page1 Ctrl";
+            $scope.title = "Page1 scope";
+            $scope.head = "AngularJS APP #1";
         }]
     })
